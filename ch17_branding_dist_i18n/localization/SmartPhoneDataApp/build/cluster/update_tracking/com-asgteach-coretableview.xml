@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.coretableview">
+    <module_version install_time="1486682966082" last="true" origin="installer" specification_version="1.0">
+        <file crc="890999356" name="config/Modules/com-asgteach-coretableview.xml"/>
+        <file crc="741022096" name="modules/com-asgteach-coretableview.jar"/>
+    </module_version>
+</module>

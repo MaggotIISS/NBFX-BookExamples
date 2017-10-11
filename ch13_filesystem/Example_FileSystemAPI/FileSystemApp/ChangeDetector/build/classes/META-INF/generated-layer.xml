@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ChangeDetectorTopComponent.settings">
+                <!--com.asgteach.changedetector.ChangeDetectorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.asgteach.changedetector.ChangeDetectorTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="ChangeDetectorTopComponent.wstcref">
+                    <!--com.asgteach.changedetector.ChangeDetectorTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ChangeDetectorTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-asgteach-changedetector-ChangeDetectorTopComponent.instance">
+                <!--com.asgteach.changedetector.ChangeDetectorTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.asgteach.changedetector.ChangeDetectorTopComponent"/>
+                <attr name="preferredID" stringvalue="ChangeDetectorTopComponent"/>
+                <attr
+                    bundlevalue="com.asgteach.changedetector.Bundle#CTL_ChangeDetectorAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="com/asgteach/changedetector/check.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="com-asgteach-changedetector-ChangeDetectorTopComponent.shadow">
+                <!--com.asgteach.changedetector.ChangeDetectorTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-asgteach-changedetector-ChangeDetectorTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="com_asgteach_changedetector">
+                <file name="ChangeDetector" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.asgteach.changedetector.ChangeDetectorTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.asgteach.changedetector//ChangeDetector//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="com">
+                <folder name="asgteach">
+                    <folder name="changedetector">
+                        <file name="ChangeDetectorTopComponent">
+                            <!--com.asgteach.changedetector.ChangeDetectorTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//com_asgteach_changedetector/ChangeDetector.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="com_asgteach_changedetector">
+                <file name="ChangeDetector.instance">
+                    <!--com.asgteach.changedetector.ChangeDetectorTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.asgteach.changedetector.ChangeDetectorTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.asgteach.changedetector.ChangeDetectorTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

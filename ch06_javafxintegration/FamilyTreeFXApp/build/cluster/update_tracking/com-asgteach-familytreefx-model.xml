@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.familytreefx.model">
+    <module_version install_time="1489777464166" last="true" origin="installer" specification_version="1.0">
+        <file crc="2993052752" name="config/Modules/com-asgteach-familytreefx-model.xml"/>
+        <file crc="2836108943" name="modules/com-asgteach-familytreefx-model.jar"/>
+    </module_version>
+</module>

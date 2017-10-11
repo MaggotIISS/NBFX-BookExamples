@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.familytree.selectionhistory">
+    <module_version install_time="1489777606124" last="true" origin="installer" specification_version="1.0">
+        <file crc="2068202956" name="config/Modules/com-asgteach-familytree-selectionhistory.xml"/>
+        <file crc="4035833112" name="modules/com-asgteach-familytree-selectionhistory.jar"/>
+    </module_version>
+</module>

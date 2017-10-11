@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.fsexploration">
+    <module_version install_time="1489776596421" last="true" origin="installer" specification_version="1.0">
+        <file crc="2425930404" name="config/Modules/com-asgteach-fsexploration.xml"/>
+        <file crc="461646795" name="modules/com-asgteach-fsexploration.jar"/>
+    </module_version>
+</module>

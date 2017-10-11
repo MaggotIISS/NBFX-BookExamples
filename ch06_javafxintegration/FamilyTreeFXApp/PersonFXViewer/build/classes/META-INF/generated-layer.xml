@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="com_asgteach_familytree_personfxviewer">
+                <file name="PersonFXViewer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.asgteach.familytree.personfxviewer//PersonFXViewer//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="com">
+                <folder name="asgteach">
+                    <folder name="familytree">
+                        <folder name="personfxviewer">
+                            <file name="PersonFXViewerTopComponent">
+                                <!--com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent-->
+                                <attr name="settings.providerPath" stringvalue="xml/lookups//com_asgteach_familytree_personfxviewer/PersonFXViewer.instance"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="com_asgteach_familytree_personfxviewer">
+                <file name="PersonFXViewer.instance">
+                    <!--com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="com-asgteach-familytree-personfxviewer-PersonFXViewerTopComponent.shadow">
+                <!--com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-asgteach-familytree-personfxviewer-PersonFXViewerTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="PersonFXViewerTopComponent.settings">
+                <!--com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="PersonFXViewerTopComponent.wstcref">
+                    <!--com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="PersonFXViewerTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-asgteach-familytree-personfxviewer-PersonFXViewerTopComponent.instance">
+                <!--com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.asgteach.familytree.personfxviewer.PersonFXViewerTopComponent"/>
+                <attr name="preferredID" stringvalue="PersonFXViewerTopComponent"/>
+                <attr
+                    bundlevalue="com.asgteach.familytree.personfxviewer.Bundle#CTL_PersonFXViewerAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

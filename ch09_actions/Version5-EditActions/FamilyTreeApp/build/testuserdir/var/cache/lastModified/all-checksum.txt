@@ -1,0 +1,9 @@
+C:\Program Files\NetBeans 8.2\platform=1489184400462
+cluster.C:/Test/NBFX-BookExamples/ch09_actions/Version5-EditActions/FamilyTreeApp/build/cluster=1489248250358
+cluster.C:/Program Files/NetBeans 8.2/platform=1489184400462
+user=1489248250358
+crc=7
+locale=en_GB
+branding=familytreeapp
+java.version=1.8.0_121
+java.vm.version=25.121-b13

@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------
+>Log Session: Friday, March 17, 2017 6:49:57 PM GMT
+>System Info: 
+  Product Version         = FileSystemApp nbms-and-javadoc-5559-on-20170311
+  Operating System        = Windows 10 version 10.0 running on amd64
+  Java; VM; Vendor        = 1.8.0_121; Java HotSpot(TM) 64-Bit Server VM 25.121-b13; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 1.8.0_121-b13
+  Java Home               = C:\Program Files\Java\jdk1.8.0_121\jre
+  System Locale; Encoding = en_GB (filesystemapp); Cp1252
+  Home Directory          = C:\Users\Mark Ferguson
+  Current Directory       = C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp
+  User Directory          = C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp\build\testuserdir
+  Cache Directory         = C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp\build\testuserdir\var\cache
+  Installation            = C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp\build\cluster
+                            C:\Program Files\NetBeans 8.2\platform
+                            C:\Program Files\NetBeans 8.2\platform
+  Boot & Ext. Classpath   = C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar
+  Application Classpath   = C:\Program Files\NetBeans 8.2\platform\lib\boot.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-modules.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util-lookup.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util-ui.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files\Java\jdk1.8.0_121\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_121\lib\tools.jar
+  Startup Classpath       = C:\Program Files\NetBeans 8.2\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans 8.2\platform\core\core-base.jar;C:\Program Files\NetBeans 8.2\platform\core\core.jar;C:\Program Files\NetBeans 8.2\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems.jar;C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp\build\cluster\core\locale\core_filesystemapp.jar
+-------------------------------------------------------------------------------
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.appconfigfile: added = [module org.openide.filesystems.nb, module org.openide.filesystems.compat8, module org.openide.util.ui > 9.3] removed = []; details: [#243100: Separate desktop-independent utilities, Separation of desktop and cleanup]
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.changedetector: added = [module org.openide.util.ui > 9.3, module org.openide.filesystems.nb, module org.openide.filesystems.compat8] removed = []; details: [#243100: Separate desktop-independent utilities, Separation of desktop and cleanup]
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.filesystem.viewer: added = [module org.openide.filesystems.nb, module org.openide.filesystems.compat8, module org.openide.util.ui > 9.3] removed = []; details: [#243100: Separate desktop-independent utilities, Separation of desktop and cleanup]
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.fsexploration: added = [module org.openide.filesystems.nb, module org.openide.filesystems.compat8, module org.openide.util.ui > 9.3] removed = []; details: [#243100: Separate desktop-independent utilities, Separation of desktop and cleanup]
+WARNING [org.netbeans.core.projects.cache]: Inefficient to include an empty layer in a module: jar:file:/C:/Test/NBFX-BookExamples/ch13_filesystem/Example_FileSystemAPI/FileSystemApp/build/cluster/modules/com-asgteach-appconfigfile.jar!/com/asgteach/appconfigfile/layer.xml
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.34 nbms-and-javadoc-5559-on-20170311]
+	org.openide.util [9.8 nbms-and-javadoc-5559-on-20170311]
+	org.openide.util.ui [9.8 nbms-and-javadoc-5559-on-20170311]
+	org.openide.modules [7.49 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.api.annotations.common/1 [1.28 nbms-and-javadoc-5559-on-20170311]
+	org.openide.filesystems [9.11 nbms-and-javadoc-5559-on-20170311]
+	org.openide.awt [7.68 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.api.progress/1 [1.48 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.api.progress.nb [1.48 nbms-and-javadoc-5559-on-20170311]
+	org.openide.dialogs [7.43 nbms-and-javadoc-5559-on-20170311]
+	org.openide.nodes [7.46 nbms-and-javadoc-5559-on-20170311]
+	org.openide.windows [6.76 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.editor.mimelookup/1 [1.41 nbms-and-javadoc-5559-on-20170311]
+	org.openide.text [6.68 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.swing.tabcontrol [1.57 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.swing.outline [1.35 nbms-and-javadoc-5559-on-20170311]
+	org.openide.explorer [6.63 nbms-and-javadoc-5559-on-20170311]
+	org.openide.actions [6.40 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.queries/1 [1.44 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.api.templates [1.8 nbms-and-javadoc-5559-on-20170311]
+	org.openide.filesystems.nb [9.11 nbms-and-javadoc-5559-on-20170311]
+	org.openide.loaders [7.67 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.api.intent [1.3 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.api.io [1.4 nbms-and-javadoc-5559-on-20170311]
+	org.openide.io [1.50 nbms-and-javadoc-5559-on-20170311]
+	org.openide.filesystems.compat8 [9.10 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.swing.plaf [1.42 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.spi.quicksearch [1.28 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.templates/1 [1.8 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.libs.asm [5.4 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.bootstrap/1 [2.77 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.startup.base [1.63.0.1 1 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.startup/1 [1.63.0.1 nbms-and-javadoc-5556-on-20170310]
+	org.netbeans.modules.settings/1 [1.50 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.sendopts/2 [2.36 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.sampler [1.15 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.progress.ui [1.34 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.print [7.27 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.keyring [1.25 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core/2 [3.52 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.options.api/1 [1.46 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.options.keymap [1.38 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.libs.jna/1 [1.46 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.masterfs/2 [2.56.0.2 2 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.masterfs.windows [1.17 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.masterfs.ui [2.4.0.2 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.masterfs.nio2 [1.16 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.keyring.fallback [1.9 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.keyring.impl [1.25 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.favorites/1 [1.47 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.33 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.autoupdate.services [1.53 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.autoupdate.ui [1.46 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.modules.autoupdate.cli [1.14 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.libs.osgi [1.22 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.libs.jna.platform/1 [1.15 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.libs.felix [2.16 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.windows/2 [2.82 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.ui/1 [1.46 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.output2/1 [1.42 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.network [1.11 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.netigso [1.32 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.nativeaccess/1 [1.32 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.multitabs/1 [1.13.0.1 1 nbms-and-javadoc-5559-on-20170311]
+	org.netbeans.core.io.ui/1 [1.31 nbms-and-javadoc-5559-on-20170311]
+	com.asgteach.fsexploration [1.0 170317]
+	com.asgteach.filesystem.viewer [1.0 170317]
+	com.asgteach.changedetector [1.0 170317]
+	com.asgteach.appconfigfile [1.0 170317]
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
+INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows system proxy resolver: auto detect
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
+INFO [org.netbeans.ui.metrics.laf]: USG_LOOK_AND_FEEL
+Diagnostic information
+Input arguments:
+	-Dnetbeans.logger.console=true
+	-ea
+	-Djdk.home=C:\Program Files\Java\jdk1.8.0_121
+	-splash:C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp\build\testuserdir\var\cache\splash.png
+	-Dnetbeans.home=C:\Program Files\NetBeans 8.2\platform
+	-Dnetbeans.user=C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp\build\testuserdir
+	-Dnetbeans.default_userdir_root=
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp\build\testuserdir\var\log\heapdump.hprof
+	-Dsun.awt.keepWorkingSetOnMinimize=true
+	-Dnetbeans.dirs=C:\Test\NBFX-BookExamples\ch13_filesystem\Example_FileSystemAPI\FileSystemApp\build\cluster;C:\Program Files\NetBeans 8.2\platform
+	exit
+Compiler: HotSpot 64-Bit Tiered Compilers
+Heap memory usage: initial 128.0MB maximum 1803.0MB
+Non heap memory usage: initial 2.4MB maximum -1b
+Garbage collector: PS Scavenge (Collections=5 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=1 Total time spent=0s)
+Classes: loaded=4916 total loaded=4916 unloaded 0
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,497,975,296
+INFO [null]: Total physical memory 8,497,975,296
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/Window/ marked with the position attribute: [com-asgteach-changedetector-ChangeDetectorTopComponent.shadow], but some are: [org-netbeans-modules-favorites-View.shadow, org-netbeans-core-io-ui-IOWindowAction.shadow, SwitchToRecentDocumentAction.shadow, Web, Tools, Separator3.instance, ConfigureWindow, org-netbeans-core-windows-actions-ResetWindowsAction.shadow, Separator4.instance, CloseWindowAction.shadow, CloseAllDocumentsAction.shadow, CloseAllButThisAction.shadow, GroupsMenuAction.shadow, DocumentsAction.shadow]

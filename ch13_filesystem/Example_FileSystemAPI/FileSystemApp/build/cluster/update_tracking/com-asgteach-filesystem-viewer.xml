@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.filesystem.viewer">
+    <module_version install_time="1489776595810" last="true" origin="installer" specification_version="1.0">
+        <file crc="9747203" name="config/Modules/com-asgteach-filesystem-viewer.xml"/>
+        <file crc="445743572" name="modules/com-asgteach-filesystem-viewer.jar"/>
+    </module_version>
+</module>

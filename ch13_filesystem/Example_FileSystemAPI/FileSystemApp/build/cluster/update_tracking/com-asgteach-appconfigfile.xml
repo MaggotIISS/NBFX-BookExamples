@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.appconfigfile">
+    <module_version install_time="1489776594213" last="true" origin="installer" specification_version="1.0">
+        <file crc="24807921" name="configFile/SimpsonFamilyTree.xml"/>
+        <file crc="2415532833" name="config/Modules/com-asgteach-appconfigfile.xml"/>
+        <file crc="1713984488" name="modules/com-asgteach-appconfigfile.jar"/>
+    </module_version>
+</module>

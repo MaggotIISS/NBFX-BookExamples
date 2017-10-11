@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.phonedatashareimpl">
+    <module_version install_time="1486682966456" last="true" origin="installer" specification_version="1.0">
+        <file crc="1737590146" name="config/Modules/com-asgteach-phonedatashareimpl.xml"/>
+        <file crc="2200397394" name="modules/com-asgteach-phonedatashareimpl.jar"/>
+    </module_version>
+</module>

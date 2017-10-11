@@ -1,0 +1,15 @@
+||:com.asgteach.familytree.managerfx.impl.FamilyTreeManagerFXImpl
+javafx.collections.ObservableMap
+java.util.stream.Stream
+java.util.List
+com.asgteach.familytreefx.model.FamilyTreeManager
+java.util.ArrayList
+com.asgteach.familytree.managerfx.impl.FamilyTreeManagerFXImpl
+javafx.collections.FXCollections
+java.util.Collection
+com.asgteach.familytreefx.model.Person
+java.lang.Long
+java.lang.Object
+java.lang.invoke.MethodHandles$Lookup
+java.lang.invoke.LambdaMetafactory
+java.lang.invoke.MethodHandles

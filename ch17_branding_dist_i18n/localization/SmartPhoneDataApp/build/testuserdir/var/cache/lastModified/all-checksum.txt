@@ -1,0 +1,9 @@
+C:\Program Files\NetBeans 8.2\platform=1479718883784
+cluster.C:/Users/Mark Ferguson/Desktop/NBFX-BookExamples/ch17_branding_dist_i18n/localization/SmartPhoneDataApp/build/cluster=1486682966492
+cluster.C:/Program Files/NetBeans 8.2/platform=1479718883784
+user=1486682966492
+crc=7
+locale=es_ES
+branding=smartphonedataapp
+java.version=1.8.0_101
+java.vm.version=25.101-b13

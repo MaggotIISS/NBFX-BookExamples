@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.threedee.demo">
+    <module_version install_time="1480424507121" last="true" origin="installer" specification_version="1.0">
+        <file crc="3679878379" name="config/Modules/com-asgteach-threedee-demo.xml"/>
+        <file crc="1893148482" name="modules/com-asgteach-threedee-demo.jar"/>
+    </module_version>
+</module>

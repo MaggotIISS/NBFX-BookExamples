@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.familytree.groupviewer">
+    <module_version install_time="1489248249877" last="true" origin="installer" specification_version="1.0">
+        <file crc="2601639424" name="config/Modules/com-asgteach-familytree-groupviewer.xml"/>
+        <file crc="108946655" name="modules/com-asgteach-familytree-groupviewer.jar"/>
+    </module_version>
+</module>

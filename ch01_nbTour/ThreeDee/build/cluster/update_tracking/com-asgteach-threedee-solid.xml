@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.threedee.solid">
+    <module_version install_time="1480424507737" last="true" origin="installer" specification_version="1.0">
+        <file crc="3779494" name="config/Modules/com-asgteach-threedee-solid.xml"/>
+        <file crc="3166797188" name="modules/com-asgteach-threedee-solid.jar"/>
+    </module_version>
+</module>

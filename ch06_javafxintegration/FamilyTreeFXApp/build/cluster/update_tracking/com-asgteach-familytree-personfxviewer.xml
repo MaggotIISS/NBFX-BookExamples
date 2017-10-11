@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.familytree.personfxviewer">
+    <module_version install_time="1489777466541" last="true" origin="installer" specification_version="1.0">
+        <file crc="1999532002" name="config/Modules/com-asgteach-familytree-personfxviewer.xml"/>
+        <file crc="3939806420" name="modules/com-asgteach-familytree-personfxviewer.jar"/>
+    </module_version>
+</module>

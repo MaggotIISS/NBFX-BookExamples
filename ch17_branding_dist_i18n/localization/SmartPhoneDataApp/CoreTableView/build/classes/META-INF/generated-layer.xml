@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="TableViewTopComponent.settings">
+                <!--com.asgteach.coretableview.TableViewTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.asgteach.coretableview.TableViewTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="TableViewTopComponent.wstcref">
+                    <!--com.asgteach.coretableview.TableViewTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TableViewTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-asgteach-coretableview-TableViewTopComponent.instance">
+                <!--com.asgteach.coretableview.TableViewTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.asgteach.coretableview.TableViewTopComponent"/>
+                <attr name="preferredID" stringvalue="TableViewTopComponent"/>
+                <attr
+                    bundlevalue="com.asgteach.coretableview.Bundle#CTL_TableViewAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="com-asgteach-coretableview-TableViewTopComponent.shadow">
+                <!--com.asgteach.coretableview.TableViewTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-asgteach-coretableview-TableViewTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="com_asgteach_coretableview">
+                <file name="TableView" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.asgteach.coretableview.TableViewTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.asgteach.coretableview//TableView//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="com">
+                <folder name="asgteach">
+                    <folder name="coretableview">
+                        <file name="TableViewTopComponent">
+                            <!--com.asgteach.coretableview.TableViewTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//com_asgteach_coretableview/TableView.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="com_asgteach_coretableview">
+                <file name="TableView.instance">
+                    <!--com.asgteach.coretableview.TableViewTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.asgteach.coretableview.TableViewTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.asgteach.coretableview.TableViewTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

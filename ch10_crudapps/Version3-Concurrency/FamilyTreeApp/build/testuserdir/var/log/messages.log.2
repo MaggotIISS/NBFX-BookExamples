@@ -1,0 +1,156 @@
+-------------------------------------------------------------------------------
+>Log Session: Wednesday, November 30, 2016 10:19:01 AM GMT
+>System Info: 
+  Product Version         = FamilyTreeApp 201609300101
+  Operating System        = Windows 10 version 10.0 running on amd64
+  Java; VM; Vendor        = 1.8.0_101; Java HotSpot(TM) 64-Bit Server VM 25.101-b13; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 1.8.0_101-b13
+  Java Home               = C:\Program Files\Java\jdk1.8.0_101\jre
+  System Locale; Encoding = en_GB (familytreeapp); Cp1252
+  Home Directory          = C:\Users\Mark Ferguson
+  Current Directory       = C:\TryJava\NetBeansFX-BookExamples\ch10_crudapps\Version3-Concurrency\FamilyTreeApp
+  User Directory          = C:\TryJava\NetBeansFX-BookExamples\ch10_crudapps\Version3-Concurrency\FamilyTreeApp\build\testuserdir
+  Cache Directory         = C:\TryJava\NetBeansFX-BookExamples\ch10_crudapps\Version3-Concurrency\FamilyTreeApp\build\testuserdir\var\cache
+  Installation            = C:\TryJava\NetBeansFX-BookExamples\ch10_crudapps\Version3-Concurrency\FamilyTreeApp\build\cluster
+                            C:\Program Files\NetBeans 8.2\platform
+                            C:\Program Files\NetBeans 8.2\platform
+  Boot & Ext. Classpath   = C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\zipfs.jar
+  Application Classpath   = C:\Program Files\NetBeans 8.2\platform\lib\boot.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-modules.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util-lookup.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util-ui.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files\Java\jdk1.8.0_101\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_101\lib\tools.jar
+  Startup Classpath       = C:\Program Files\NetBeans 8.2\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans 8.2\platform\core\core-base.jar;C:\Program Files\NetBeans 8.2\platform\core\core.jar;C:\Program Files\NetBeans 8.2\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\TryJava\NetBeansFX-BookExamples\ch10_crudapps\Version3-Concurrency\FamilyTreeApp\build\cluster\core\locale\core_familytreeapp.jar
+-------------------------------------------------------------------------------
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.familytree.actions: added = [module org.netbeans.api.templates > 1.0, module org.openide.util.ui > 9.3] removed = []; details: [#243100: Separate desktop-independent utilities, Templates API has been separated into its own module.]
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.familytree.manager.jpa: added = [module org.openide.util.ui > 9.3] removed = []; details: [#243100: Separate desktop-independent utilities]
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.familytree.model: added = [module org.openide.util.ui > 9.3] removed = []; details: [#243100: Separate desktop-independent utilities]
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.familytree.personeditor: added = [module org.netbeans.api.progress.compat8 > 1.40, module org.openide.util.ui > 9.3, module org.netbeans.api.progress.nb > 1.40] removed = []; details: [#243100: Separate desktop-independent utilities, Swing dependencies split away]
+WARNING [org.netbeans.core.modules]: had to upgrade dependencies for module com.asgteach.familytree.personviewer: added = [module org.netbeans.api.progress.compat8 > 1.40, module org.openide.util.ui > 9.3, module org.netbeans.api.progress.nb > 1.40] removed = []; details: [#243100: Separate desktop-independent utilities, Swing dependencies split away]
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.33.1 201609300101]
+	org.openide.util [9.7.1 201609300101]
+	org.openide.util.ui [9.6.1 201609300101]
+	org.openide.modules [7.48.1 201609300101]
+	org.netbeans.api.annotations.common/1 [1.27.1 201609300101]
+	org.openide.filesystems [9.10.1 201609300101]
+	org.openide.awt [7.67.1 201609300101]
+	org.netbeans.api.progress/1 [1.47.1 201609300101]
+	org.netbeans.api.progress.nb [1.47.1 201609300101]
+	org.openide.dialogs [7.42.1 201609300101]
+	org.openide.nodes [7.45.1 201609300101]
+	org.openide.windows [6.75.1 201609300101]
+	org.netbeans.modules.editor.mimelookup/1 [1.40.1 201609300101]
+	org.openide.text [6.67.1 201609300101]
+	org.netbeans.swing.tabcontrol [1.56.1 201609300101]
+	org.netbeans.swing.outline [1.34.1 201609300101]
+	org.openide.explorer [6.62.1 201609300101]
+	org.openide.actions [6.39.1 201609300101]
+	org.netbeans.modules.queries/1 [1.43.1 201609300101]
+	org.netbeans.api.templates [1.7.1 201609300101]
+	org.openide.filesystems.nb [9.9.1 201609300101]
+	org.openide.loaders [7.66.1 201609300101]
+	org.netbeans.api.intent [1.2.1 201609300101]
+	org.netbeans.api.io [1.3.1 201609300101]
+	org.openide.io [1.49.1 201609300101]
+	org.openide.filesystems.compat8 [9.9.1 201609300101]
+	org.netbeans.swing.plaf [1.41.1 201609300101]
+	org.netbeans.spi.quicksearch [1.27.1 201609300101]
+	org.netbeans.modules.templates/1 [1.7.1 201609300101]
+	org.netbeans.libs.asm [5.3.1 201609300101]
+	org.netbeans.bootstrap/1 [2.76.1 201609300101]
+	org.netbeans.core.startup.base [1.62.1.1 1 201609300101]
+	org.netbeans.core.startup/1 [1.62.1.1 201609300101]
+	org.netbeans.modules.settings/1 [1.49.1 201609300101]
+	org.netbeans.modules.sampler [1.14.1 201609300101]
+	org.netbeans.modules.progress.ui [1.33.1 201609300101]
+	org.netbeans.modules.print [7.26.1 201609300101]
+	org.netbeans.modules.keyring [1.24.1 201609300101]
+	org.netbeans.core/2 [3.51.1 201609300101]
+	org.netbeans.modules.options.api/1 [1.45.1 201609300101]
+	org.netbeans.modules.options.keymap [1.37.1 201609300101]
+	org.netbeans.libs.jna/1 [1.44.1 201609300101]
+	org.netbeans.modules.masterfs/2 [2.55.1.2 2 201609300101]
+	org.netbeans.modules.masterfs.windows [1.16.1 201609300101]
+	org.netbeans.modules.masterfs.ui [2.3.1.2 201609300101]
+	org.netbeans.modules.masterfs.nio2 [1.15.1 201609300101]
+	org.netbeans.modules.keyring.fallback [1.8.1 201609300101]
+	org.netbeans.modules.keyring.impl [1.24.1 201609300101]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.32.1 201609300101]
+	org.netbeans.libs.osgi [1.21.1 201609300101]
+	org.netbeans.libs.jna.platform/1 [1.14.1 201609300101]
+	org.netbeans.libs.felix [2.15.1 201609300101]
+	org.netbeans.core.windows/2 [2.81.1 201609300101]
+	org.netbeans.core.ui/1 [1.45.1 201609300101]
+	org.netbeans.core.output2/1 [1.41.1 201609300101]
+	org.netbeans.core.network [1.10.1 201609300101]
+	org.netbeans.core.netigso [1.31.1 201609300101]
+	org.netbeans.core.nativeaccess/1 [1.31.1 201609300101]
+	org.netbeans.core.multitabs/1 [1.12.1.1 1 201609300101]
+	org.netbeans.core.io.ui/1 [1.30.1 201609300101]
+	org.netbeans.api.progress.compat8 [1.47.1 201609300101]
+	org.eclipselink [1.0 161130]
+	org.apache.derby [1.0 161130]
+	com.asgteach.familytree.model [1.0 161130]
+	com.asgteach.familytree.editor.manager [1.0 161130]
+	com.asgteach.familytree.capabilities [1.0 161130]
+	com.asgteach.familytree.personviewer [1.0 161130]
+	com.asgteach.familytree.personeditor [1.0 161130]
+	com.asgteach.familytree.manager.jpa [1.0 161130]
+	com.asgteach.familytree.manager.impl [1.0 161130]
+	com.asgteach.familytree.actions [1.0 161130]
+INFO [com.asgteach.familytree.manager.jpa.FamilyTreeManagerJPA]: Entity Manager Factory Created.
+SEVERE [com.asgteach.familytree.manager.jpa.FamilyTreeManagerJPA]: Cannot get EntityManager.
+Local Exception Stack: 
+Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.3.0.v20110604-r9504): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLException: No suitable driver found for jdbc:derby://localhost:1527/personftm
+Error Code: 0
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:324)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:319)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:138)
+	at org.eclipse.persistence.sessions.DatasourceLogin.connectToDatasource(DatasourceLogin.java:162)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.loginAndDetectDatasource(DatabaseSessionImpl.java:582)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.login(EntityManagerFactoryProvider.java:206)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:472)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getDatabaseSession(EntityManagerFactoryDelegate.java:188)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.createEntityManagerImpl(EntityManagerFactoryDelegate.java:277)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:290)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:268)
+	at com.asgteach.familytree.manager.jpa.FamilyTreeManagerJPA.<clinit>(FamilyTreeManagerJPA.java:52)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.openide.util.lookup.implspi.SharedClassObjectBridge.newInstance(SharedClassObjectBridge.java:64)
+	at org.openide.util.lookup.MetaInfServicesLookup$Item.getInstance(MetaInfServicesLookup.java:514)
+	at org.openide.util.lookup.AbstractLookup.lookup(AbstractLookup.java:422)
+	at org.openide.util.lookup.ProxyLookup.lookup(ProxyLookup.java:222)
+	at com.asgteach.familytree.model.data.Installer.run(Installer.java:27)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1443)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:68)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:303)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2058)
+Caused by: java.sql.SQLException: No suitable driver found for jdbc:derby://localhost:1527/personftm
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:98)
+	... 23 more
+Caused: javax.persistence.PersistenceException
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:501)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getDatabaseSession(EntityManagerFactoryDelegate.java:188)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.createEntityManagerImpl(EntityManagerFactoryDelegate.java:277)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManagerImpl(EntityManagerFactoryImpl.java:290)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.createEntityManager(EntityManagerFactoryImpl.java:268)
+[catch] at com.asgteach.familytree.manager.jpa.FamilyTreeManagerJPA.<clinit>(FamilyTreeManagerJPA.java:52)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.openide.util.lookup.implspi.SharedClassObjectBridge.newInstance(SharedClassObjectBridge.java:64)
+	at org.openide.util.lookup.MetaInfServicesLookup$Item.getInstance(MetaInfServicesLookup.java:514)
+	at org.openide.util.lookup.AbstractLookup.lookup(AbstractLookup.java:422)
+	at org.openide.util.lookup.ProxyLookup.lookup(ProxyLookup.java:222)
+	at com.asgteach.familytree.model.data.Installer.run(Installer.java:27)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1443)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:68)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:303)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2058)
+SEVERE [com.asgteach.familytree.model.data.Installer]: Cannot get FamilyTreeManager object

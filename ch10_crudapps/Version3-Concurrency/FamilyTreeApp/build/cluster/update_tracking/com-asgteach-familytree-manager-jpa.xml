@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.familytree.manager.jpa">
+    <module_version install_time="1480501173231" last="true" origin="installer" specification_version="1.0">
+        <file crc="4045057466" name="config/Modules/com-asgteach-familytree-manager-jpa.xml"/>
+        <file crc="3388156622" name="modules/com-asgteach-familytree-manager-jpa.jar"/>
+    </module_version>
+</module>

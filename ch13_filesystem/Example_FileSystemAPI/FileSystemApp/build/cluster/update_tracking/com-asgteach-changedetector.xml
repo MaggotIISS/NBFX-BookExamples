@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.asgteach.changedetector">
+    <module_version install_time="1489776595232" last="true" origin="installer" specification_version="1.0">
+        <file crc="4240066798" name="config/Modules/com-asgteach-changedetector.xml"/>
+        <file crc="3720223736" name="modules/com-asgteach-changedetector.jar"/>
+    </module_version>
+</module>
